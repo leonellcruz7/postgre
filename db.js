@@ -6,6 +6,8 @@ const pool = new Pool({
   database: "students_w8yf",
   password: "ImKC74zCSkSYDKKfuWBRMuCU3WrUeGgO",
   port: "5432",
+  connectionString:
+    "postgres://students_w8yf_user:ImKC74zCSkSYDKKfuWBRMuCU3WrUeGgO@dpg-clpj5b946foc73cgvq50-a/students_w8yf",
 });
 
 module.exports = pool;
