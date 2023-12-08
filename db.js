@@ -2,7 +2,7 @@ require("dotenv").config();
 const Pool = require("pg").Pool;
 const pool = new Pool({
   user: "students_w8yf_user",
-  host: "localhost",
+  host: "dpg-clpj5b946foc73cgvq50-a",
   database: "students_w8yf",
   password: "ImKC74zCSkSYDKKfuWBRMuCU3WrUeGgO",
   port: "5432",
