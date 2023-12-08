@@ -1,4 +1,5 @@
 const pool = require("../db");
+require("dotenv").config();
 const {
   getStudents,
   getStudentById,
