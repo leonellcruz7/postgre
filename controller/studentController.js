@@ -9,6 +9,9 @@ const {
 } = require("../queries/studentQueries");
 
 module.exports = {
+  test: (req, res) => {
+    res.send("test");
+  },
   getStudents: (req, res) => {
     pool.query(getStudents, (error, result) => {
       if (error) throw error;

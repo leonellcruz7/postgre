@@ -5,8 +5,10 @@ const {
   getSpecificStudent,
   createStudent,
   editStudent,
+  test,
 } = require("../controller/studentController");
 
+router.get("/test", test);
 router.get("/", getStudents);
 router.post("/", createStudent);
 router.get("/:id", getSpecificStudent);
